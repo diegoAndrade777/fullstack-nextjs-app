@@ -1,34 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    <img alt="fullstack-app" title="Fullstack NextJs App - AI Prompt" src="web/src/assets/wallpaper.png" width="800px" />
+</h1>
+<h1 align="center">Next Level Week - Spacetime</h1>
+<p align="center">Project <strong>Spacetime</strong> developed during the Rocketseat Next Level Week.
+    With this project, you will be able to can post memories from your time capsule and share them.
+</p>
 
-## Getting Started
+## Technologies
+- [NodeJS](https://nodejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Fastify](https://www.fastify.io/)
+- [Prisma](https://www.prisma.io/)
+- [NextsJs](https://www.nextjs.org/) (v13 - App Router)
+- [react-toastify](https://www.npmjs.com/package/react-toastify)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.io/)
+- [react-native-toast-message](https://www.npmjs.com/package/react-native-toast-message)
 
-First, run the development server:
-
+## Instalation
+To install the dependencies and to execute the **Backend**, clone the project on your computer an execute:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Enter on backend directory
+$ cd server
+
+# Install dependencies
+$ yarn
+
+# Enter the environment variables in .env file
+GITHUB_CLIENT_ID=""
+GITHUB_CLIENT_SECRET=""
+
+# Run Migrates
+$ npx prisma migrate dev
+
+# Start server
+$ yarn run dev
+
+# running on port 3333
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Backend
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<img align="center" src="web/src/assets/fullstackApp.gif" width="600px"></img>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Frontend
 
-## Learn More
+To run the React's Frontend use:
+```bash
+# Enter on frontend directory
+$ cd web
 
-To learn more about Next.js, take a look at the following resources:
+# Install dependencies
+$ yarn
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# You must get your clientid from your github profile and put it in the ".env.local" file like this:
+NEXT_PUBLIC_GITHUB_CLIENT_ID=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Run
+$ yarn run dev
+```
+<img align="center" src="web/src/assets/fullstackApp.gif" width="1024px"></img>
 
-## Deploy on Vercel
+## Mobile
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To run the Mobile app, use:
+```bash
+# Enter on mobile directory
+$ cd mobile
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Install dependencies
+$ yarn
+
+# Run
+$ yarn start
+
+# Expo will open, just scan the qrcode on terminal or expo page
+```
+<img align="center" src="web/src/assets/fullstackApp.gif" width="300px"></img>
+
+## Licence
+
+[MIT](./LICENSE) &copy; [Rocketseat](https://rocketseat.com.br/)
+
+Made with ♥ by Diego Andrade :wave: [Get in touch!](https://www.linkedin.com/in/diego-r-andrade/)
+
