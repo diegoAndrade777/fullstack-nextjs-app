@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="fullstack-app" title="Fullstack NextJs App - AI Prompt" src="web/src/assets/wallpaper.png" width="800px" />
+    <img alt="fullstack-app" title="Fullstack NextJs App - AI Prompt" src="public/assets/wallpaper.png" width="800px" />
 </h1>
 <h1 align="center">Fullstack NextJs App - AI Prompt</h1>
 <p align="center">Discovery & Share
@@ -43,7 +43,7 @@ $ yarn run dev
 
 ## Backend
 
-<img align="center" src="web/src/assets/fullstackApp.gif" width="600px"></img>
+<img align="center" src="public/assets/fullstackApp.gif" width="600px"></img>
 
 ## Frontend
 
@@ -61,7 +61,7 @@ NEXT_PUBLIC_GITHUB_CLIENT_ID=
 # Run
 $ yarn run dev
 ```
-<img align="center" src="web/src/assets/fullstackApp.gif" width="1024px"></img>
+<img align="center" src="public/assets/fullstackApp.gif" width="1024px"></img>
 
 ## Mobile
 
@@ -78,7 +78,7 @@ $ yarn start
 
 # Expo will open, just scan the qrcode on terminal or expo page
 ```
-<img align="center" src="web/src/assets/fullstackApp.gif" width="300px"></img>
+<img align="center" src="public/assets/fullstackApp.gif" width="300px"></img>
 
 ## Licence
 
