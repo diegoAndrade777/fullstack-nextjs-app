@@ -14,7 +14,7 @@ This app is an open-souce AI prompting tool form modern worldto discover, create
 - [Mongoose](https://mongoosejs.com/docs/guide.html)
 - [react-toastify](https://www.npmjs.com/package/react-toastify)
 - [TailwindCSS](https://tailwindcss.com/)
-- [react-native-toast-message](https://www.npmjs.com/package/react-native-toast-message)
+- [react-toastify](https://fkhadra.github.io/react-toastify/introduction/)
 
 ## Instalation
 To install the dependencies, clone the project on your computer an execute:
