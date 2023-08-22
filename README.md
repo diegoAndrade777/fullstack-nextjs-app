@@ -1,9 +1,10 @@
 <h1 align="center">
     <img alt="fullstack-app" title="Fullstack NextJs App - AI Prompt" src="web/src/assets/wallpaper.png" width="800px" />
 </h1>
-<h1 align="center">Next Level Week - Spacetime</h1>
-<p align="center">Project <strong>Spacetime</strong> developed during the Rocketseat Next Level Week.
-    With this project, you will be able to can post memories from your time capsule and share them.
+<h1 align="center">Fullstack NextJs App - AI Prompt</h1>
+<p align="center">Discovery & Share
+AI-Powered Prompts
+This app is an open-souce AI prompting tool form modern worldto discover, create and share creative prompts
 </p>
 
 ## Technologies
